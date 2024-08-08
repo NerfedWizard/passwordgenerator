@@ -16,7 +16,7 @@ import javax.swing.filechooser.FileSystemView;
 
 public class PasswordGenerator {
 	private StringBuilder password;
-	private static final int PASSWORD_LENGTH = 18;
+	private static final int PASSWORD_LENGTH = 20;
 	private static final String USER_AGENT = "Mozilla/5.0";
 	private static final String GET_URL = "https://random-word-api.herokuapp.com/word?length=";
 	private static final String TITLE = "Password Generator";
